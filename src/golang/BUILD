@@ -4,3 +4,8 @@ go_binary(
     name = "fizzbuzz",
     srcs = ["fizzbuzz.go"],
 )
+
+go_binary(
+    name = "calculator",
+    srcs = ["calculator.go"],
+)
